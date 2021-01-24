@@ -1,6 +1,8 @@
 chrome.browserAction.onClicked.addListener(function () {
     showCookie();
-});
+});   
+
+
 
 function text2clip(text) {
     var copyFrom = document.createElement("textarea");
